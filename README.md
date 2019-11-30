@@ -14,3 +14,47 @@ To use Coil, you’ll need the following:
 * Min SDK 14+
 * Compile SDK: 29+
 * Java 8+
+
+Downlaod Image with Extension Function
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        image.load("https://i.ibb.co/TRTpb0N/download.png")
+    }
+    
+Load Local Image Resource
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        image.load(R.drawable.ic_launcher_background)
+    }
+    
+Load Image File Path From Folder
+
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        image.load(File("/path/to/image.jpg"))
+    }
+    
+CircleCropTransformation
+
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
+
+        image.load("https://i.ibb.co/TRTpb0N/download.png")
+        {
+            transformations(CircleCropTransformation())
+        }
+    }
