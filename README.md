@@ -1,5 +1,5 @@
 # Coil-Kotlin
-This is sample project of Coil-kotlin, In which I Explored some common functions to download the image.
+This is the sample project of Coil-kotlin, In which I Explored some common functions to download the image.
 
 Coil is a new image loading library in Kotlin for downloading images in Android, and it’s list of strengths are impressive:
 
