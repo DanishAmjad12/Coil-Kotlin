@@ -7,7 +7,7 @@ Coil is a new image loading library in Kotlin for downloading images in Android,
 * Lightweight: Coil adds only 1500 method counts to your APK file
 * Modern: Coil is built in Kotlin and uses modern libraries like Kotlin Coroutines, AndroidX LifeCycle, etc
 
-Requirements
+# Requirements
 To use Coil, you’ll need the following:
 
 * Android X
@@ -15,7 +15,7 @@ To use Coil, you’ll need the following:
 * Compile SDK: 29+
 * Java 8+
 
-Downlaod Image with Extension Function
+# Downlaod Image with Extension Function
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -25,7 +25,7 @@ Downlaod Image with Extension Function
         image.load("https://i.ibb.co/TRTpb0N/download.png")
     }
     
-Load Local Image Resource
+# Load Local Image Resource
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,7 +35,7 @@ Load Local Image Resource
         image.load(R.drawable.ic_launcher_background)
     }
     
-Load Image File Path From Folder
+# Load Image File Path From Folder
 
 
 
@@ -46,7 +46,7 @@ Load Image File Path From Folder
         image.load(File("/path/to/image.jpg"))
     }
     
-CircleCropTransformation
+# CircleCropTransformation
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
